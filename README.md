@@ -1,36 +1,120 @@
-# hello-world 标题使用 多个#加一个空格，一共可以使用6个#最多有六级标题
-块级元素：至少占据一行
-行内元素：只占自身所需要的空间
+# Markdown Cheat Sheet
 
-## first 引用
-> use'>'表示引用
-## second 列表
-### 有序
-把大象放进冰箱：
-1.打开冰箱门
-2.把大象塞进去
-3.关上门
-### 无序列表 使用-或*：
-- C++
-- python
-- C
-- java
-### 任务列表 使用-[]:
--[] 吃饭
--[] 睡觉
--[x] 玩游戏
+Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
 
-## third 代码块：
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
 
-'
-int main(){
-  return 0;
-}
-'
+## Basic Syntax
+
+These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+
+### Heading
+
+# H1
+## H2
+### H3
+
+### Bold
+
+**bold text**
+
+### Italic
+
+*italicized text*
+
+### Blockquote
+
+> blockquote
+
+### Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+### Unordered List
+
+- First item
+- Second item
+- Third item
+
+### Code
+
+`code`
+
+### Horizontal Rule
+
 ---
 
-## forth link
-[IAN's github](https://github.com/Ian-GU1025)
+### Link
 
+[Markdown Guide](https://www.markdownguide.org)
 
+### Image
+
+![alt text](https://www.markdownguide.org/assets/images/tux.png)
+
+## Extended Syntax
+
+These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+
+### Table
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+### Fenced Code Block
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+
+### Footnote
+
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+
+### Heading ID
+
+### My Great Heading {#custom-id}
+
+### Definition List
+
+term
+: definition
+
+### Strikethrough
+
+~~The world is flat.~~
+
+### Task List
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+### Emoji
+
+That is so funny! :joy:
+
+(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
+
+### Highlight
+
+I need to highlight these ==very important words==.
+
+### Subscript
+
+H~2~O
+
+### Superscript
+
+X^2^
 
